@@ -1,0 +1,56 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+build/
+dist/
+venv/
+env/
+
+# Poetry specific files
+# Default virtual environment location
+.venv/
+# Poetry cache directory (can be outside the project, but good to include if it's ever local)
+.poetry/
+
+# pytest cache directory
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/ # If you use Ruff for linting/formatting
+
+# Editors and IDEs
+.vscode/        # VS Code settings
+.idea/          # PyCharm/IntelliJ IDEA settings
+*.sublime-project
+*.sublime-workspace
+.DS_Store       # macOS specific
+Thumbs.db       # Windows specific
+*.swp           # Vim swap files
+
+# Operating System files
+.directory # Linux desktop specific
+ehthumbs.db # Windows thumbs.db
+desktop.ini # Windows desktop settings
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Docker build artifacts (though .dockerignore also handles this for builds)
+# These are often temporary or derived
+*.tar
+*.zip
+*.deb
+*.rpm
+*.md5
+*.sha1
+
+# Database files (if you're using a local SQLite for example)
+*.sqlite3
+*.db
